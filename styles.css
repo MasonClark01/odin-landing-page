@@ -1,6 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.Logo{
+    display: flex;
+    margin: 0;
+    color: #f9faf8;
+    font-size: 24px;
+}
+.links{
+    display: inline-block;
+    margin: 16px;
+}
+.link-three{
+    margin-right: 0px;
+}
+.header-section{
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.Header a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+.header-sub{
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+.header-text{
+    flex: auto;
+    max-width: 30vw;
+}
+.awesome-img{
+    width: 30vw;
+}
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
 .info-card-img{
     width: 200px;
 }
 ul li{
     list-style: none;
+}
+.cta{
+    background-color: #3882f6;
+    color:#e5e7eb;
+    font-size: 16px;
+}
+h4{
+    font-size: 20px;
+}
+.quote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.sign-up{
+    background-color: #3882f6;
+    border-radius: 20%;
+    padding: 10px 40px;
+    color: #e5e7eb;
+    border-color: #e5e7eb;
+    border-style: solid;
+}
+.footer{
+    background-color: #1f2937;
+    text-align: center;
+    margin: 0;
+    padding: 16px;    
+}
+.footer p{
+    margin: 0;
+    color: #f9faf8;
 }
