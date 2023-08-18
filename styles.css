@@ -6,14 +6,16 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 16px;
-    margin-right: 16px;
+    width: 75vw;
+    margin-right: auto;
+    margin-left: auto;
 }
 .Logo{
     display: flex;
     margin: 0;
     color: #f9faf8;
     font-size: 24px;
+    font-weight: 700;
 }
 .links{
     display: inline-block;
@@ -34,7 +36,10 @@ body{
 .header-sub{
     display: flex;
     justify-content: center;
-    gap: 64px;
+    gap: 15vw;
+    margin-top: 20px;
+    padding-bottom: 80px;
+    margin-bottom: 20px;
 }
 .header-text{
     flex: auto;
@@ -48,8 +53,38 @@ h1{
     font-weight: 900;
     color: #f9faf8;
 }
+.sign-up-header{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 7px;
+    padding: 10px 40px;
+    border: none;
+}
+.images-list{
+    display: flex;
+    justify-content: space-between;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+.img-pair{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    text-align: center;
+}
 .info-card-img{
     width: 200px;
+    border-radius: 7px;
+}
+h2{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 40px;
 }
 ul li{
     list-style: none;
@@ -58,23 +93,54 @@ ul li{
     background-color: #3882f6;
     color:#e5e7eb;
     font-size: 16px;
+    padding: 24px;
+    width: 80vw;
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 7px;
+    gap: 64px;  
+}
+.cta-text p{
+    margin-top: 0;
 }
 h4{
     font-size: 20px;
+    margin-bottom: 0;
 }
 .quote{
     background-color: #e5e7eb;
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.inspiring-quote{
+    max-width: 60vw;
+    margin: 0;
+}
+.quoter{
+    align-self: flex-end;
+    margin-right: 10vw;
+    margin-bottom: 10vh;
 }
 .sign-up{
     background-color: #3882f6;
-    border-radius: 20%;
-    padding: 10px 40px;
+    border-radius: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
     color: #e5e7eb;
     border-color: #e5e7eb;
     border-style: solid;
+    width: auto;
+    height: 30px;
+    flex-shrink: 0;
+    text-align: center;
 }
 .footer{
     background-color: #1f2937;
